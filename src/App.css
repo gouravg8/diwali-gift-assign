@@ -1,0 +1,35 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+input {
+    border: 1px solid white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+button {
+    border-radius: 5px;
+    margin-inline: 4px;
+    padding: 5px 8px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+.upperPart {
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95vw;
+    height: 95vh;
+    margin: 0 auto;
+    align-items: center;
+
+}
